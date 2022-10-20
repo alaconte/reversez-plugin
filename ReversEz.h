@@ -2,11 +2,12 @@
 
 #include "IPlug_include_in_plug_hdr.h"
 
-const int kNumPresets = 1;
+const int kNumPresets = 2;
 
 enum EParams
 {
   kGain = 0,
+  kHot,
   kNumParams
 };
 
